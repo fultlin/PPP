@@ -80,11 +80,13 @@ console.log('------------')
 
 const decoyDuck = new Duck("Утка-приманка", new LoudQuack(), new FlyBehavior());
 decoyDuck.display();
+console.log('------------')
 decoyDuck.setFlyBehavior(new FlyWithRemoteControl());
 decoyDuck.display(); 
 console.log('------------')
 
 const redheadDuck = new Duck("Красноголовая утка", new QuackBehavior(), new FlyWithWings());
 redheadDuck.display();
+console.log('------------')
 redheadDuck.setQuackBehavior(new LongQuack());
 redheadDuck.display();
